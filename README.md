@@ -3,7 +3,7 @@
 An app can listen music together whih friends, also can timing how long you focus on your job and compare with your partners.
 
 
-#### Function Description
+### Function Description
 
 * add music via youtube link
 * only room owner can control play or pause.
@@ -16,3 +16,21 @@ An app can listen music together whih friends, also can timing how long you focu
   * playlist can be storage or just delete after listend.
   * maybe room id == user id is a good choice.
     * database is easy to design.
+* Use flutter to design
+  * hope can run at android, ios, macOS, windows, linux
+
+
+### Database easy design
+
+room id (user id)
+- playlist
+  - song a
+  - song b
+  - ...
+- now_playing
+
+
+### Some difficult part
+
+* how to make everyone listen at the same play time, even when they join in different time. (播放進度相同)
+* how to know someone is work hard or not.
